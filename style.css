@@ -77,14 +77,20 @@ main::after {
     background-color: #EFEFEF;
     text-align: center;
     padding: 2.3rem 1.5rem;
-    max-width: 729px;
     margin: 0 auto;
     margin-bottom: 40px;
+    width: 100%;
+}
+
+.big-paragraph p {
+    max-width: 729px;
+    margin: 0 auto;
 }
 
 .big-paragraph h5 {
     font-size: 1.2rem;
     font-weight: 700;
+    margin-bottom: 1.1rem;
 }
 
 .paragraphs {
@@ -96,6 +102,11 @@ main::after {
 .paragraphs h4 {
     font-size: 1.5rem;
     font-weight: 700;
+    margin-bottom: 1.1rem;
+}
+
+.paragraphs img {
+    margin-right: 1rem;
 }
 
 .small-paragraph p img {
