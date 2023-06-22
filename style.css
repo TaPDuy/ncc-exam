@@ -90,6 +90,7 @@ main::after {
 .paragraphs {
     display: flex;
     gap: 3rem;
+    flex-direction: row;
 }
 
 .paragraphs h4 {
@@ -116,4 +117,33 @@ footer {
 
     color: #3E3E3E;
     font-weight: 500;
+}
+
+@media(max-width: 500px) {
+    .logo {
+        height: auto;
+        width: 100%;
+        margin: 20px 0 30px 0;
+    }
+    main {
+        margin-left: 0;
+    }
+    .sidebar {
+        visibility: hidden;
+    }
+}
+
+@media(max-width: 700px) {
+    .content {
+        padding: 0 2rem;
+    }
+    footer {
+        padding: 1.8rem 2rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    .paragraphs {
+        flex-direction: column;
+    }
 }
